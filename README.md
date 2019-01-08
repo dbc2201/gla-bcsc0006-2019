@@ -6,7 +6,7 @@ ___
 
 Resource Links - 
 
-1. Java JDK [optional] - Android Studio comes with embedded OpenJDK, so you need not install Java JDK specifically for Android Application Development on Android Studio.
+1. Java JDK
    1. Oracle JDK - https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
    2. Open JDK - https://openjdk.java.net/install/
 2. IDE - IntelliJ IDEA - https://www.jetbrains.com/idea/download/
