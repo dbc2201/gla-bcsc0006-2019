@@ -12,6 +12,6 @@ Resource Links -
 2. IDE - IntelliJ IDEA - https://www.jetbrains.com/idea/download/
 3. VCS - Git - https://git-scm.com/downloads
 
-Link toacquire a JetBrains student license - https://www.jetbrains.com/shop/eform/students
+Link to acquire a JetBrains student license - https://www.jetbrains.com/shop/eform/students
 
 ___
