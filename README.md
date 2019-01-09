@@ -17,3 +17,5 @@ ___
 
 Books for this course
 
+1. Elliot Koffman - [Data-Structures-Abstractions-and-Design-Using-Java-Third-Edition-2016 PDF](https://github.com/dbc2201/gla-bcsc0006-2019/blob/master/Books/Data-Structures-Abstractions-and-Design-Using-Java-Third-Edition-2016.pdf)
+2. Robert Lafore - [Data_Structures_and_Algorithms_in_Java_2nd_Edition](https://github.com/dbc2201/gla-bcsc0006-2019/blob/master/Books/Data_Structures_and_Algorithms_in_Java_2nd_Edition.pdf)
