@@ -4,7 +4,7 @@ This is the official repository of the course "Data Structures and Algorithms us
 
 ___
 
-Resource Links - 
+## Resource Links - 
 
 1. Java JDK
    1. Oracle JDK - https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
@@ -15,14 +15,14 @@ Resource Links -
 Link to acquire a JetBrains student license - https://www.jetbrains.com/shop/eform/students
 ___
 
-Books for this course
+## Books for this course
 
 1. Elliot Koffman - [Data-Structures-Abstractions-and-Design-Using-Java-Third-Edition-2016 PDF](https://github.com/dbc2201/gla-bcsc0006-2019/blob/master/Books/Data-Structures-Abstractions-and-Design-Using-Java-Third-Edition-2016.pdf)
 2. Robert Lafore - [Data_Structures_and_Algorithms_in_Java_2nd_Edition](https://github.com/dbc2201/gla-bcsc0006-2019/blob/master/Books/Data_Structures_and_Algorithms_in_Java_2nd_Edition.pdf)
 
 ___
 
-# Links for learning Git & GitHub
+## Links for learning Git & GitHub
 
 1. Official GitHub Channel  - https://www.youtube.com/channel/UCP7RrmoueENv9TZts3HXXtw
 2. Get Up and Running on GitHub - https://www.youtube.com/watch?v=noZnOSpcjYY&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-
