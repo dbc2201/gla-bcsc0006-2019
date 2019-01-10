@@ -19,3 +19,15 @@ Books for this course
 
 1. Elliot Koffman - [Data-Structures-Abstractions-and-Design-Using-Java-Third-Edition-2016 PDF](https://github.com/dbc2201/gla-bcsc0006-2019/blob/master/Books/Data-Structures-Abstractions-and-Design-Using-Java-Third-Edition-2016.pdf)
 2. Robert Lafore - [Data_Structures_and_Algorithms_in_Java_2nd_Edition](https://github.com/dbc2201/gla-bcsc0006-2019/blob/master/Books/Data_Structures_and_Algorithms_in_Java_2nd_Edition.pdf)
+
+___
+
+# Links for learning Git & GitHub
+
+1. Official GitHub Channel  - https://www.youtube.com/channel/UCP7RrmoueENv9TZts3HXXtw
+2. Get Up and Running on GitHub - https://www.youtube.com/watch?v=noZnOSpcjYY&list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-
+3. Git Video Tutorial - https://www.youtube.com/watch?v=r63f51ce84A&t=766s
+4. How to use Git & GitHub via Udacity - https://www.youtube.com/watch?v=Ytux4IOAR_s&list=PLAwxTw4SYaPk8_-6IGxJtD3i2QAu5_s_p
+
+
+
