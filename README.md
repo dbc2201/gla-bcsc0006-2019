@@ -30,4 +30,9 @@ ___
 4. How to use Git & GitHub via Udacity - https://www.youtube.com/watch?v=Ytux4IOAR_s&list=PLAwxTw4SYaPk8_-6IGxJtD3i2QAu5_s_p
 5. Git eBook - https://git-scm.com/book/en/v2
 
+___
 
+## Sample Codes
+1. [Integer List in Java (Array)](https://gist.github.com/d97471995e25aa0672ae0a10889d25c0)  
+2. [Integer Stack in Java (Array)](https://gist.github.com/dbc2201/ea845fec7c44f0d2e0e6cddb654051d6)    
+3. [Integer Queue in Java (Array)](https://gist.github.com/dbc2201/6c940aa7ab69fa92714ae8beeb15499d)  
