@@ -22,3 +22,5 @@
 
    Demonstrate the class in a complete program.
    _Input Validation_: Do not accept negative numbers for monthly rainfall figures
+   
+   ## More practice questions [here](https://www.w3resource.com/java-exercises/array/index.php)
