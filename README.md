@@ -52,5 +52,7 @@ ___
 3. [Time Complexity Analysis](https://www.youtube.com/watch?v=lGvz1hpsKGY)
 4. [Big O Notation in 5 minutes - The Basics](https://www.youtube.com/watch?v=__vX2sjlpXU)
 5. [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk&t=17s)
-
+6. [Practical Java Examples of the Big O Notation](https://www.baeldung.com/java-algorithm-complexity)
+7. [A beginner's guide to Big O notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
+8. [Big O Notations by Derek Banas](https://www.youtube.com/watch?v=V6mKVRU1evU)
 ___
