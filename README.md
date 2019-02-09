@@ -42,3 +42,15 @@ ___
 ## Practice Questions
 
 [Mid Sem 1](https://github.com/dbc2201/gla-bcsc0006-2019/blob/master/Practice/Questions/mid_sem1.md)
+
+___
+
+## Help Links
+
+1. [Big O Notation by HackerRank](https://www.youtube.com/watch?v=v4cd1O4zkGw)
+2. [Time Complexity in Hindi Part 1 asymptotic notation analysis](https://www.youtube.com/watch?v=oQEhTDl6w8k)
+3. [Time Complexity Analysis](https://www.youtube.com/watch?v=lGvz1hpsKGY)
+4. [Big O Notation in 5 minutes - The Basics](https://www.youtube.com/watch?v=__vX2sjlpXU)
+5. [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk&t=17s)
+
+___
