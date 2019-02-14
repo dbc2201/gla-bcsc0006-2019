@@ -10,4 +10,4 @@ ___
 
 ## Comparison of the two searches
 
-![comparison of the two techniques](https://www.mathwarehouse.com/programming/gifs/binary-vs-linear-search.php#binary-vs-linear-search-gif)
+![comparison of the two techniques](https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/binary-and-linear-search-animations.gif)
