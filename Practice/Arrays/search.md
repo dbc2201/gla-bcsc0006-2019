@@ -49,6 +49,14 @@ class LinearSearch {
       // initliaze the array
         initialize(numbers);
         
+        print(numbers);
+        
+    }
+
+    public static void print(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
     }
     
     public static void initialize(int[] array){
