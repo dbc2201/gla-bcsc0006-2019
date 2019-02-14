@@ -22,4 +22,4 @@ ___
 ___
 
 ### GIF 3 Worst Case Scenario
-1[worst case scenario](https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/linear-vs-binary-search-worst-case.gif)
+![worst case scenario](https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/linear-vs-binary-search-worst-case.gif)
