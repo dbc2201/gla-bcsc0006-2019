@@ -62,7 +62,7 @@ about the same.
 
 ___
 
-### Complexity of Linear Search ALgorithm
+### Complexity of Linear Search Algorithm
 
 The linear search algorithm takes `O(n)` time, where `n` is the number of elements in the array.
 - The **best case** for this algorithm would be, if the element is found at the first index of the array.
@@ -167,9 +167,36 @@ ___
         print "value found at" 'pos'
 6. Exit.
 ```
-
 ___
 
+### Example
+
+Suppose that we have an array of `int` (integers) named `numbers`.
+ We have `10` elements in the `numebers` array.
+  The values might be `random` or input by a user, but it would not affect
+the execution of our linear search algorithm.
+```java
+class LinearSearch {
+    public static void main(String[] args) {
+        // create an array of integers, with 10 elements, named 'numbers'
+        int[] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        // it is compulsory for the algorithm to have a sorted array
+    }
+}
+```
+Let us say that we have to search for the number `4` in our numbers array. Then,
+- searching the `numbers` array for the value `4` means to find out whether
+the value `4` is present inside the array.
+- if the value `4` does exist inside the array (for this case, it does), we need
+to know the position (index) where the value was found.
+- if the value is not present in the array, then we simply wish to notify the user
+about the same.
+- for this array, the `beg` is `index 0`, `end` is `index 9` and mid is `index 4`  
+`(0 + 9) / 2 = 4.5 -> 4`
+- the above values will change after the first iteration, according to condition  
+`array[mid] == value || array[mid] > value || array[mid] < value` 
+
+___
 
 ## Comparison of the two searches
 
