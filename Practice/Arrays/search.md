@@ -35,7 +35,7 @@ a match is found.
 ```
 ___  
 
-## Example
+### Example
 
 Suppose that we have an array of `int` (integers) named `numbers`.
  We have `10` elements in the `numebers` array.
@@ -59,7 +59,7 @@ about the same.
 
 ___
 
-## Complexity of Linear Search ALgorithm
+### Complexity of Linear Search ALgorithm
 
 The linear search algorithm takes `O(n)` time, where `n` is the number of elements in the array.
 - The **best case** for this algorithm would be, if the element is found at the first index of the array.
@@ -69,7 +69,7 @@ is located at the last index of the array, because we would have to traverse and
 of the array.
 ___
 
-## Sample code for searching a value in an integer array
+### Sample code for searching a value in an integer array
 
 ```java
 public class LinearSearch {
@@ -130,6 +130,11 @@ public class LinearSearch {
 }
 ```
 ___
+
+## Binary Search
+
+___
+
 
 ## Comparison of the two searches
 
