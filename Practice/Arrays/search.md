@@ -37,7 +37,7 @@ ___
 
 ## Example
 
-Suppose that we have an array on `int` (integers) named `numbers`.
+Suppose that we have an array of `int` (integers) named `numbers`.
  We have `10` elements in the `numebers` array.
   The values might be `random` or input by a user, but it would not affect
 the execution of our linear search algorithm.
