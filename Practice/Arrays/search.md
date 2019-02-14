@@ -37,14 +37,15 @@ ___
 
 ## Example
 
-Suppose that we have an array on `int` (integers) named `numbers`. We have `100` elements
-in the `numebers` array. The values might be `random` or input by a user, but it would not affect
+Suppose that we have an array on `int` (integers) named `numbers`.
+ We have `10` elements in the `numebers` array.
+  The values might be `random` or input by a user, but it would not affect
 the execution of our linear search algorithm.
 ```java
 class LinearSearch {
     public static void main(String[] args) {
-        // create an array of integers, with 100 elements, named 'numbers'
-        int[] numbers = new int[100];
+        // create an array of integers, with 10 elements, named 'numbers'
+        int[] numbers = {10, 8, 2, 7, 3, 4, 9, 1, 6, 5};
     }
 }
 ```
