@@ -198,6 +198,13 @@ about the same.
 
 ___
 
+### Complexity of Binary Search Algorithm
+
+The Binary Search Algorithm takes `O(log n)` time, where `n` is the number of elements in the array.
+The complexity is calculated depending on the number of comparisons done.
+With each comparison, the size of the segment which we have to search is reduced to half. 
+___
+
 ## Comparison of the two searches
 
 ### GIF 1
