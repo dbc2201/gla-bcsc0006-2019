@@ -69,6 +69,68 @@ is located at the last index of the array, because we would have to traverse and
 of the array.
 ___
 
+## Sample code for searching a value in an integer array
+
+```java
+public class LinearSearch {
+
+    public static void main(String[] args) {
+
+//        initialize an integer array
+        int[] numbers = new int[10];
+
+//        fill values in the array
+        fillValues(numbers);
+
+//        print the array;
+        print(numbers);
+
+//        find the index of the value in the array
+        int index = linearSearch(numbers, 4);
+
+        if (index == -1) {
+            System.out.println("Element not found");
+        } else {
+            System.out.println("Element found at index: " + index);
+        }
+
+
+    }
+
+    // method to fill random values in an array
+    private static void fillValues(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            array[i] = (int) ((Math.random() * 10) + 1);
+        }
+    }
+
+    // method to print the elements of an array
+    private static void print(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("i : " + i + ", value :" + array[i]);
+        }
+    }
+
+    // method to search for a value in an array (linear)
+    private static int linearSearch(int[] array, int value) {
+
+        // algorithm step 1, set pos = -1
+        int pos = -1;
+
+        for (int i = 0; i < array.length; i++) {
+
+            // algorithm step 4, check whether array[i] == value
+            if (array[i] == value) {
+                pos = i;
+            }
+        }
+        return pos;
+    }
+
+}
+```
+___
+
 ## Comparison of the two searches
 
 ### GIF 1
