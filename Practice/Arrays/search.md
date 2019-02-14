@@ -46,6 +46,13 @@ class LinearSearch {
       int[] numbers = new int[100];
       // create an array of integers, with 100 elements, named 'numbers'
     }
+    
+    public void initialize(int[] array){
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i + 1;
+            // initialize all values of the numbers array as its 'index + 1'
+        }
+    }
 }
 ```
 ___
