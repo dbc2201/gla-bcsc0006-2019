@@ -205,6 +205,91 @@ The complexity is calculated depending on the number of comparisons done.
 With each comparison, the size of the segment which we have to search is reduced to half. 
 ___
 
+### Sample code for searching a value in an integer array (binary search)
+
+```java
+public class BinarySearch {
+
+    public static void main(String[] args) {
+
+        int n = 10;
+
+        int[] numbers = new int[n];
+
+//        fill values for the numbers array
+
+        fillValues(numbers);
+
+//        print the elements of the array on screen
+        print(numbers);
+
+//        search for the number 4
+        int index = binarySearch(numbers, 4);
+
+        if (index == -1) {
+            System.out.println("Element not found");
+        } else {
+            System.out.println("Element found at index: " + index);
+        }
+
+    }
+
+    //    method to initialize the elements of the array
+    private static void fillValues(int[] array) {
+
+//        travers the array
+        for (int i = 0; i < array.length; i++) {
+
+//            set the elements to a value
+            array[i] = i + 1;   //  this way, the values will be sorted
+        }
+
+    }
+
+
+    // method to print the elements of an array
+    private static void print(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("i : " + i + ", value :" + array[i]);
+        }
+    }
+
+    // method to search for a value in the array (binary)
+    private static int binarySearch(int[] array, int value) {
+
+        int beg, end, mid;
+        beg = 0;
+        end = array.length - 1;
+        int pos = -1;
+
+        while (beg <= end) {
+
+            mid = (beg + end) / 2;
+
+            if (array[mid] == value) {  //  if value is present at the mid of the array
+
+                pos = mid;
+                break;
+
+            } else if (array[mid] > value) {
+
+                end = mid - 1;
+
+            } else {
+
+                beg = mid + 1;
+
+            }
+
+        }
+
+        return pos;
+    }
+
+}
+```
+___
+
 ## Comparison of the two searches
 
 ### GIF 1
