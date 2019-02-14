@@ -43,14 +43,18 @@ the execution of our linear search algorithm.
 ```java
 class LinearSearch {
     public static void main(String[] args){
+        // create an array of integers, with 100 elements, named 'numbers'
       int[] numbers = new int[100];
-      // create an array of integers, with 100 elements, named 'numbers'
+      
+      // initliaze the array
+        initialize(numbers);
+        
     }
     
-    public void initialize(int[] array){
+    public static void initialize(int[] array){
         for (int i = 0; i < array.length; i++) {
-            array[i] = i + 1;
             // initialize all values of the numbers array as its 'index + 1'
+            array[i] = i + 1;
         }
     }
 }
