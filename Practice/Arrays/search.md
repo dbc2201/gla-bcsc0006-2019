@@ -18,3 +18,8 @@ ___
 
 ### GIF 2 Best Case Scenario
 ![best case scenario](https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/linear-vs-binary-search-best-case.gif)
+
+___
+
+### GIF 3 Worst Case Scenario
+1[worst case scenario](https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/linear-vs-binary-search-worst-case.gif)
