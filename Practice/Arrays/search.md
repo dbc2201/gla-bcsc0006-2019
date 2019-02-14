@@ -16,6 +16,9 @@ ___
 a match is found.
 - It is most commonly used when the array is unsorted.
 
+___
+
+
 ### Algorithm for Linear Search
 
 ```
@@ -132,6 +135,38 @@ public class LinearSearch {
 ___
 
 ## Binary Search
+
+- Binary search is another searching algorithm to search for a value in an array.
+- The binary search algorithm has a pre-requisite, the array must be sorted before searching for the value.
+- This algorithm only 'looks' at the *half* of the current array at any given time.
+
+For ex - If we were to find a name inside a telephone directory, you would most likely open a page 
+from the middle of the book and look for the name on that page, if not found you would decide whether to look for the name in the first part or the second.
+After choosing, you would again open a page from the middle of this portion and repeat this process unless the name is found.  
+
+___
+
+### Algorithm for Binary Search
+```
+1. Initialize 'beg' to the lower bound of array (here, 0 at first),
+'end' to the upper bound of the array (here, n-1 at first), 'pos' to -1
+    [Loop starts]
+2. Repeat steps 3 and 4 while 'beg' <= 'end'
+3. Set, 'mid' to ('beg' + 'end') / 2
+4. Check whether array[mid] == value,
+    if yes, set 'pos' to 'mid'
+        break out of loop
+    else if array[mid] > value,
+        set 'end' = 'mid' - 1
+    else,
+        set 'beg' = 'mid' + 1
+    [Loop ends]
+5. Check if pos == -1
+        print "value is not present in loop"
+   else
+        print "value found at" 'pos'
+6. Exit.
+```
 
 ___
 
