@@ -11,7 +11,7 @@ ___
 ## Comparison of the two searches
 
 ### GIF 1
-![comparison of the two techniques](https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/binary-and-linear-search-animations.gif)
+![comparison of the two techniques](https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/binary-and-linear-search-animations.gif)  
 `Sequential search` is just another name for `linear search`
 
 ___
