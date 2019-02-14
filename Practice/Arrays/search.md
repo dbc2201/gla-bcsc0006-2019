@@ -45,27 +45,7 @@ class LinearSearch {
     public static void main(String[] args){
         // create an array of integers, with 100 elements, named 'numbers'
       int[] numbers = new int[100];
-      
-      // initialize the array
-        initialize(numbers);
-        
-//        print the array
-        print(numbers);
-        
-    }
-
-    public static void print(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
-        }
-    }
-    
-    public static void initialize(int[] array){
-        for (int i = 0; i < array.length; i++) {
-            // initialize all values of the numbers array as its 'index + 1'
-            array[i] = i + 1;
-        }
-    }
+   }
 }
 ```
 ___
