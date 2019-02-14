@@ -35,6 +35,21 @@ a match is found.
 ```
 ___  
 
+## Example
+
+Suppose that we have an array on `int` (integers) named `numbers`. We have `100` elements
+in the `numebers` array. The values might be `random` or input by a user, but it would not affect
+the execution of our linear search algorithm.
+```java
+class LinearSearch {
+    public static void main(String[] args){
+      int[] numbers = new int[100];
+      // create an array of integers, with 100 elements, named 'numbers'
+    }
+}
+```
+___
+
 ## Comparison of the two searches
 
 ### GIF 1
