@@ -59,6 +59,16 @@ about the same.
 
 ___
 
+## Complexity of Linear Search ALgorithm
+
+The linear search algorithm takes `O(n)` time, where `n` is the number of elements in the array.
+- The **best case** for this algorithm would be, if the element is found at the first index of the array.
+Because, we only needed to compare the element once.
+- The **worst case** for this algorithm would be either if the element is not present in the array or if it 
+is located at the last index of the array, because we would have to traverse and compare all of the elements 
+of the array.
+___
+
 ## Comparison of the two searches
 
 ### GIF 1
