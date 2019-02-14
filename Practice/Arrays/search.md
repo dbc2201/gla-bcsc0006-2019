@@ -49,6 +49,14 @@ class LinearSearch {
     }
 }
 ```
+Let us say that we have to search for the number `4` in our numbers array. Then,
+- searching the `numbers` array for the value `4` means to find out whether
+the value `4` is present inside the array.
+- if the value `4` does exist inside the array (for this case, it does), we need
+to know the position (index) where the value was found.
+- if the value is not present in the array, then we simply wish to notify the user
+about the same.
+
 ___
 
 ## Comparison of the two searches
