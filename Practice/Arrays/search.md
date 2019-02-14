@@ -46,9 +46,10 @@ class LinearSearch {
         // create an array of integers, with 100 elements, named 'numbers'
       int[] numbers = new int[100];
       
-      // initliaze the array
+      // initialize the array
         initialize(numbers);
         
+//        print the array
         print(numbers);
         
     }
