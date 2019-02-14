@@ -42,10 +42,10 @@ in the `numebers` array. The values might be `random` or input by a user, but it
 the execution of our linear search algorithm.
 ```java
 class LinearSearch {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // create an array of integers, with 100 elements, named 'numbers'
-      int[] numbers = new int[100];
-   }
+        int[] numbers = new int[100];
+    }
 }
 ```
 ___
