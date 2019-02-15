@@ -288,6 +288,97 @@ public class BinarySearch {
 
 }
 ```
+
+### Sample code for searching in an object (non-primitive) array using Binary Search
+
+```java
+package practice;
+
+public class BinarySearchTry {
+
+    public static void main(String[] args) {
+
+        int n = 10;
+
+        Student[] secE = new Student[73];
+
+        fillStudents(secE);
+
+        displayClass(secE);
+
+        int beg = 0, end = secE.length - 1 , mid, pos = -1;
+
+        int value = 45;
+
+        while (beg <= end) {
+            mid = (beg + end) / 2;
+
+            if (secE[mid].getRollNo() == value) {
+                pos = mid;
+                break;
+            } else if (secE[mid].getRollNo() > value) {
+                end = mid - 1;
+            } else {
+                beg = mid + 1;
+            }
+
+
+
+        }
+
+        if (pos == -1) {
+            System.out.println(value + " not found");
+        } else {
+            System.out.println(value + " found at index: " + pos);
+        }
+
+
+
+    }
+
+    private static void displayClass(Student[] secE) {
+        for (Student student : secE) {
+            if (student != null) {
+                System.out.println(student);
+            }
+        }
+    }
+
+    private static void fillStudents(Student[] secE) {
+        for (int i = 0; i < secE.length; i++) {
+            secE[i] = new Student();
+            secE[i].setRollNo(i + 1);
+            secE[i].setName("Student " + (i + 1));
+        }
+    }
+}
+class Student {
+    private String name;
+    private int rollNo;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getRollNo() {
+        return rollNo;
+    }
+
+    public void setRollNo(int rollNo) {
+        this.rollNo = rollNo;
+    }
+
+    @Override
+    public String toString() {
+        return ("(" + this.rollNo + ", " + this.name + ")");
+    }
+}
+```
+
 ___
 
 ## Comparison of the two searches
