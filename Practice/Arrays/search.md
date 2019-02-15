@@ -372,7 +372,7 @@ public class BinarySearch {
 ```java
 package practice;
 
-public class BinarySearchTry {
+public class BinarySearchNP {
 
     public static void main(String[] args) {
 
