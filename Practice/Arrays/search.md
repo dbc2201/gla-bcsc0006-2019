@@ -138,76 +138,82 @@ public class LinearSearch {
 ```java
 public class LinearSearchNP {
     public static void main(String[] args) {
-
-        int n = 10;
-
-        Student[] students = new Student[n];
-
-        fillStudentValues(students);
-
-        displayClass(students);
-
-        int value = 0;
-
-        int pos = -1;
-
-        for (int i = 0; i < students.length; i++) {
-            if (students[i].getMarks() == value) {
-                pos = i;
-                break;
+    
+            int n = 10;
+    
+            Student[] students = new Student[n];
+    
+            fillStudentValues(students);
+    
+            displayClass(students);
+    
+            int value = 0;
+    
+            int pos = -1;
+    
+            pos = linearSearch(students, value);
+    
+            if (pos == -1) {
+                System.out.println("No student got " + value + " marks.");
+            } else {
+                System.out.println(students[pos].getName() + " got " + value + " marks.");
+            }
+    
+        }
+    
+        private static int linearSearch(Student[] students, int value) {
+            int pos = ;
+            for (int i = 0; i < students.length; i++) {
+                if (students[i].getMarks() == value) {
+                    pos = i;
+                    break;
+                }
+            }
+            return pos;
+        }
+    
+        private static void displayClass(Student[] students) {
+            for (Student student : students) {
+                if (student != null) {
+                    System.out.println(student);
+                }
             }
         }
-
-        if (pos == -1) {
-            System.out.println("No student got " + value + " marks.");
-        } else {
-            System.out.println(students[pos].getName() + " got " + value + " marks.");
-        }
-
-    }
-
-    private static void displayClass(Student[] students) {
-        for (Student student : students) {
-            if (student != null) {
-                System.out.println(student);
+    
+        private static void fillStudentValues(Student[] students) {
+            for (int i = 0; i < students.length; i++) {
+                students[i] = new Student();
+                int randomNum = (int) (Math.random() * 10);
+                students[i].setMarks(randomNum);
+                students[i].setName("Student " + (i + 1));
             }
         }
     }
-
-    private static void fillStudentValues(Student[] students) {
-        for (int i = 0; i < students.length; i++) {
-            students[i] = new Student();
-            int randomNum = (int) (Math.random() * 10);
-            students[i].setMarks(randomNum);
-            students[i].setName("Student " + (i + 1));
+    class Student {
+        private String name;
+        private int marks;
+    
+        public String getName() {
+            return name;
+        }
+    
+        public void setName(String name) {
+            this.name = name;
+        }
+    
+        public int getMarks() {
+            return marks;
+        }
+    
+        public void setMarks(int marks) {
+            this.marks = marks;
+        }
+    
+        @Override
+        public String toString() {
+            return ("(" + this.marks + ", " + this.name + ")");
         }
     }
-}
-class Student {
-    private String name;
-    private int marks;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getMarks() {
-        return marks;
-    }
-
-    public void setMarks(int marks) {
-        this.marks = marks;
-    }
-
-    @Override
-    public String toString() {
-        return ("(" + this.marks + ", " + this.name + ")");
-    }
-}
 ```
 
 ___
