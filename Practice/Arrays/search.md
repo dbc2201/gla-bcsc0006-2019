@@ -162,7 +162,7 @@ public class LinearSearchNP {
         }
     
         private static int linearSearch(Student[] students, int value) {
-            int pos = ;
+            int pos = -1 ;
             for (int i = 0; i < students.length; i++) {
                 if (students[i].getMarks() == value) {
                     pos = i;
