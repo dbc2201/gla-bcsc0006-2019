@@ -176,7 +176,7 @@ Suppose that we have an array of `int` (integers) named `numbers`.
   The values might be `random` or input by a user, but it would not affect
 the execution of our linear search algorithm.
 ```java
-class LinearSearch {
+class BinarySearch {
     public static void main(String[] args) {
         // create an array of integers, with 10 elements, named 'numbers'
         int[] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
