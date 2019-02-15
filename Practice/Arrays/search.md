@@ -420,19 +420,19 @@ public class BinarySearchNP {
 
     }
 
-    private static void displayClass(Student[] secE) {
-        for (Student student : secE) {
+    private static void displayClass(Student[] students) {
+        for (Student student : students) {
             if (student != null) {
                 System.out.println(student);
             }
         }
     }
 
-    private static void fillStudents(Student[] secE) {
-        for (int i = 0; i < secE.length; i++) {
-            secE[i] = new Student();
-            secE[i].setRollNo(i + 1);
-            secE[i].setName("Student " + (i + 1));
+    private static void fillStudents(Student[] students) {
+        for (int i = 0; i < students.length; i++) {
+            students[i] = new Student();
+            students[i].setRollNo(i + 1);
+            students[i].setName("Student " + (i + 1));
         }
     }
 }
