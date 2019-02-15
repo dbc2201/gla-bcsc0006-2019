@@ -300,7 +300,7 @@ public class BinarySearchTry {
 
         int n = 10;
 
-        Student[] students = new Student[73];
+        Student[] students = new Student[n];
 
         fillStudents(students);
 
