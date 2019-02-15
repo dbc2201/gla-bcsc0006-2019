@@ -482,3 +482,8 @@ ___
 ![worst case scenario](https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/linear-vs-binary-search-worst-case.gif)
 
 ___
+
+### Help Links
+
+1. [Linear Search, Wikipedia](https://en.wikipedia.org/wiki/Linear_search)
+2. [Binary Search, Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)
