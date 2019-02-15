@@ -300,23 +300,23 @@ public class BinarySearchTry {
 
         int n = 10;
 
-        Student[] secE = new Student[73];
+        Student[] students = new Student[73];
 
-        fillStudents(secE);
+        fillStudents(students);
 
-        displayClass(secE);
+        displayClass(students);
 
-        int beg = 0, end = secE.length - 1 , mid, pos = -1;
+        int beg = 0, end = students.length - 1 , mid, pos = -1;
 
         int value = 45;
 
         while (beg <= end) {
             mid = (beg + end) / 2;
 
-            if (secE[mid].getRollNo() == value) {
+            if (students[mid].getRollNo() == value) {
                 pos = mid;
                 break;
-            } else if (secE[mid].getRollNo() > value) {
+            } else if (students[mid].getRollNo() > value) {
                 end = mid - 1;
             } else {
                 beg = mid + 1;
