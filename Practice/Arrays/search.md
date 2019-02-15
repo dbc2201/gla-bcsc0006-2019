@@ -485,5 +485,5 @@ ___
 
 ### Help Links
 
-1. [Linear Search, Wikipedia](https://en.wikipedia.org/wiki/Linear_search)
+1. [Linear Search, Wikipedia](https://en.wikipedia.org/wiki/Linear_search) & [Linear Search, Wikipedia Talk](https://en.wikipedia.org/wiki/Talk%3ALinear_search)
 2. [Binary Search, Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)
