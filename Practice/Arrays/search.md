@@ -136,7 +136,7 @@ public class LinearSearch {
 ### Sample code for searching in a non-primitive array using linear search
 
 ```java
-public class LinearSearchTry {
+public class LinearSearchNP {
     public static void main(String[] args) {
 
         int n = 10;
