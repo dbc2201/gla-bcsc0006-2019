@@ -56,3 +56,7 @@ ___
 7. [A beginner's guide to Big O notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
 8. [Big O Notations by Derek Banas](https://www.youtube.com/watch?v=V6mKVRU1evU)
 ___
+
+## Inspirational
+
+1. [The mind behind Linux | Linus Torvalds, YouTube](https://www.youtube.com/watch?v=o8NPllzkFhE)
