@@ -22,11 +22,13 @@ ___
 
     - The tail of a `singly` linked list will contain `null`.
     
-2.  Doubly Linked List
+2. Doubly Linked List
 
     - A `Doubly` linked list allows us to go in both direction, `forward` and `backward`.
-    -   
-    
+
+3. Circular Linked List
+
+    - There is no `head` or `tail` in a `circular` linked list.
 ___
 
 ## A Node 
