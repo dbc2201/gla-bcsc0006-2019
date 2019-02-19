@@ -1,6 +1,6 @@
 # Practice with ArrayLists in Java
 
-##Practice Questions
+## Practice Questions
 
 ### Write the body for the following method
 
