@@ -60,7 +60,7 @@ ___
 ## Lectures
 
 1. [Searching in Arrays](https://github.com/dbc2201/gla-bcsc0006-2019/blob/master/Practice/Arrays/search.md)
-2. [Linked Lists]()
+2. [Linked Lists](https://github.com/dbc2201/gla-bcsc0006-2019/blob/master/Practice/LinkedList/linkedList.md)
 ___
 
 ## Inspirational
