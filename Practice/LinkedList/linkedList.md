@@ -21,10 +21,11 @@ ___
 1. Singly Linked List
 
     - The tail of a `singly` linked list will contain `null`.  
-    **LIMITATION**
+    **LIMITATIONS**
     - Insertion at the front of the list is `O(1)`. Insertion at other positions is `O(n)`, where `n` is
 the size of the list.
-    
+    - We can only insert/remove a node if we have the reference to its predecessor node.
+    - We can move in only one direction, starting at the list's head.
     
 2. Doubly Linked List
 
