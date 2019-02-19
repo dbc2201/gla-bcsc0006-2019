@@ -12,7 +12,10 @@ ___
 
 - Head : The first node of a linked list.
 - Tail : The last node of a linked list.
-- Link Hopping/Node Hopping/Pointer Hopping: Moving from one node to another by following a `next` reference.
+- Link Hopping/Node Hopping/Pointer Hopping: The tail of a list can be found by traversing the
+                                             linked list— starting at the head and moving from one node to another by following
+                                             each node’s next reference. We can identify the tail as the node having null as its
+                                             next reference.
 
 ___
 
