@@ -3,8 +3,9 @@
 ___  
 
 ## Types of search  
-### Linear Search  
-### Binary Search  
+
+[Linear Search]()  
+[Binary Search]()  
 
 ___
 

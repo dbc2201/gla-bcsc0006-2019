@@ -67,4 +67,5 @@ ___
 
 1. [The mind behind Linux | Linus Torvalds, YouTube](https://www.youtube.com/watch?v=o8NPllzkFhE)
 2. ["Stupid questions" about Software Engineering](https://www.youtube.com/watch?v=JmruASZmX2I)
+3. [How I Mastered DSA - Rachit Jain, IIT](https://www.youtube.com/watch?v=IIKTGg5AKkY)
 ___
