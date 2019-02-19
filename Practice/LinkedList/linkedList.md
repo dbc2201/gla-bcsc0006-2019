@@ -20,9 +20,12 @@ ___
 
 1. Singly Linked List
 
-    - The tail of a singly linked list will contain `null`.
+    - The tail of a `singly` linked list will contain `null`.
     
-2.     
+2.  Doubly Linked List
+
+    - A `Doubly` linked list allows us to go in both direction, `forward` and `backward`.
+    -   
     
 ___
 
@@ -33,7 +36,7 @@ ___
 - A `Node` is a data structure that contains a data item and one or more links.
 - A `linl` is a reference to a `node`.
 
-Sample code for implementing a `node` in Java
+Sample code for implementing a `node` in a Singly Linked List in Java
 
 ```java
 public class Node {
