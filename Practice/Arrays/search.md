@@ -4,8 +4,8 @@ ___
 
 ## Types of search  
 
-[Linear Search]()  
-[Binary Search]()  
+[Linear Search](https://github.com/dbc2201/gla-bcsc0006-2019/blob/master/Practice/Arrays/search.md#linear-search)  
+[Binary Search](https://github.com/dbc2201/gla-bcsc0006-2019/blob/master/Practice/Arrays/search.md#binary-search)  
 
 ___
 
