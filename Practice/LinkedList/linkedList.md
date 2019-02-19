@@ -29,6 +29,8 @@ ___
 3. Circular Linked List
 
     - There is no `head` or `tail` in a `circular` linked list.
+    - Instead of having the last node's next pointer be `null`, it points back to the first node.
+    
 ___
 
 ## A Node 
