@@ -11,7 +11,7 @@ ___
 
 ![](./../../Images/node.png)
 
-- A node is the single element in a linked list.
+- A `Node` is a data structure that contains a data item and one or more links.
 
 ___
 
