@@ -20,7 +20,11 @@ ___
 
 1. Singly Linked List
 
-    - The tail of a `singly` linked list will contain `null`.
+    - The tail of a `singly` linked list will contain `null`.  
+    **LIMITATION**
+    - Insertion at the front of the list is `O(1)`. Insertion at other positions is `O(n)`, where `n` is
+the size of the list.
+    
     
 2. Doubly Linked List
 
