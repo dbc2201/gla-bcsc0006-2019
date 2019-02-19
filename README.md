@@ -57,6 +57,14 @@ ___
 8. [Big O Notations by Derek Banas](https://www.youtube.com/watch?v=V6mKVRU1evU)
 ___
 
+## Lectures
+
+1. [Searching in Arrays](https://github.com/dbc2201/gla-bcsc0006-2019/blob/master/Practice/Arrays/search.md)
+2. [Linked Lists]()
+___
+
 ## Inspirational
 
 1. [The mind behind Linux | Linus Torvalds, YouTube](https://www.youtube.com/watch?v=o8NPllzkFhE)
+2. ["Stupid questions" about Software Engineering](https://www.youtube.com/watch?v=JmruASZmX2I)
+___
