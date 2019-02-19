@@ -35,7 +35,12 @@ the size of the list.
     - A `Doubly` linked list allows us to go in both direction, `forward` and `backward`.  
     - They allow a greater variety of `O(1)-time` update operations, including insertions and deletions at arbitrary
       positions within the list.
-
+    - In order to avoid some special cases when operating near the boundaries of a doubly
+      linked list, it helps to add special nodes at both ends of the list: a `header` node at the
+      beginning of the list, and a `trailer` node at the end of the list. These “dummy” nodes
+      are known as `sentinels (or guards)`, and they do not store elements of the primary
+      sequence.
+    
 3. Circular Linked List
 
     - There is no `head` or `tail` in a `circular` linked list.
