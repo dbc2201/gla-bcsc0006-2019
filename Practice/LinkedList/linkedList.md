@@ -33,6 +33,8 @@ the size of the list.
 2. Doubly Linked List
 
     - A `Doubly` linked list allows us to go in both direction, `forward` and `backward`.  
+    - They allow a greater variety of `O(1)-time` update operations, including insertions and deletions at arbitrary
+      positions within the list.
 
 3. Circular Linked List
 
