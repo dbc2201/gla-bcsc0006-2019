@@ -1,5 +1,14 @@
 # Linked Lists
 
+## Disadvantages of using Arrays
+
+1. In an unsorted array, searching is slow.
+2. In a sorted array, inserting is slow.
+3. Deletion is slow in both sorted and unsorted arrays.
+4. The size of an array cannot be modified after it is created.
+
+___
+
 - A linked list is a data structure that provides us with the ability to add or remove items anywhere 
 in the list in constant `O(1)` time.
 - A linked list is useful when we need to insert or remove elements at random locations.
