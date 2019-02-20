@@ -14,6 +14,7 @@ in the list in constant `O(1)` time.
 - A linked list is useful when we need to insert or remove elements at random locations.
 - A linked is also useful when we need to do insertion and deletion frequently.
 - We do not keep track of indices inside a linked list, hence we cannot tell the order of a node just by looking at it.
+- LinkedLists need not be stored consecutively in the memory.
 
 ___
 
