@@ -107,3 +107,15 @@ ___
 1. [Visualize Linked Lists](https://visualgo.net/en/list)
 2. [Linked Lists by HackerRank](https://www.youtube.com/watch?v=njTh_OwMljA)
 3. [Linked Lists on Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
+
+___
+
+## EXTRA
+
+```
+FOR PYTHON PROGRAMMERS
+The Python list class is similar to the Java ArrayList class. Both can store a collection of
+objects and both automatically expand when extra space is needed. Both have methods
+to add elements, insert elements, and get the list length. However, you cannot use array
+index notation (e.g., scores[3] ) with an ArrayList but you can with a Python list .
+```
