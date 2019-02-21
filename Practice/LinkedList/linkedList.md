@@ -105,8 +105,8 @@ ___
 ## Help Links
 
 1. [Visualize Linked Lists](https://visualgo.net/en/list)
-2. [Linked Lists by HackerRank](https://www.youtube.com/watch?v=njTh_OwMljA)
-3. [Linked Lists on Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
+2. [Linked Lists on Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
+3. [Linked Lists by HackerRank, Video](https://www.youtube.com/watch?v=njTh_OwMljA)
 4. [Practice Programs for Linked Lists on HackerRank](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=linked-lists)
 
 ___
