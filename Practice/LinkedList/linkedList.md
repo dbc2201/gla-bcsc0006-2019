@@ -7,6 +7,16 @@
 3. Deletion is slow in both sorted and unsorted arrays.
 4. The size of an array cannot be modified after it is created.
 
+## EXTRA
+
+```
+FOR JAVA DEVELOPERS
+The ArrayList in Java has the limitation that the add and remove methods operate in linear
+O(n) time because they  require a loop to shift elements in the underlying array. The linked list overcomes
+limitation by providing the ability to add or remove items anywhere in the list in constant (O(1)) time.  
+A linked list is useful when you need to insert and remove elements in an arbitrary manner or when you want to update
+the list frequently.
+```
 ___
 
 - A linked list is a data structure that provides us with the ability to add or remove items anywhere 
