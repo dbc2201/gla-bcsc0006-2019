@@ -7,7 +7,7 @@
 3. Deletion is slow in both sorted and unsorted arrays.
 4. The size of an array cannot be modified after it is created.
 
-## EXTRA
+## EXTRA 
 
 ```
 FOR JAVA DEVELOPERS
